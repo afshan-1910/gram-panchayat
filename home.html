@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gram Panchayat Website</title>
+  <link rel="stylesheet" href="C:\Users\Admin\Desktop\main\final year intership(novapex)\grampanchayat\css\home.css">
+  <script src="C:\Users\Admin\Desktop\main\final year intership(novapex)\grampanchayat\js\home.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Gram Panchayat - Welcome</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#schemes">Schemes</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><button onclick="toggleTheme()">Toggle Theme</button></li>
+      <li>
+        <select id="language" onchange="changeLanguage()">
+          <option value="en">English</option>
+          <option value="hi">Hindi</option>
+          <option value="mr">Marathi</option>
+        </select>
+      </li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <h2 data-en="Welcome to Gram Panchayat" 
+        data-hi="ग्राम पंचायत में आपका स्वागत है" 
+        data-mr="ग्राम पंचायतमध्ये आपले स्वागत आहे">
+        Welcome to Gram Panchayat
+    </h2>
+  
+    <p data-en="This is the official website of the Gram Panchayat." 
+       data-hi="यह ग्राम पंचायत की आधिकारिक वेबसाइट है।" 
+       data-mr="ही ग्राम पंचायतची अधिकृत वेबसाइट आहे.">
+       This is the official website of the Gram Panchayat.
+    </p>
+  
+    <p data-en="Our Gram Panchayat is committed to the welfare and development of our village and its residents. We aim to provide transparency, efficient services, and implement government schemes effectively." 
+       data-hi="हमारी ग्राम पंचायत गांव और निवासियों की भलाई और विकास के लिए प्रतिबद्ध है। हम पारदर्शिता, कुशल सेवाएं प्रदान करने और सरकारी योजनाओं को प्रभावी ढंग से लागू करने का लक्ष्य रखते हैं।" 
+       data-mr="आमची ग्राम पंचायत गाव व रहिवाश्यांच्या कल्याण आणि विकासासाठी कटिबद्ध आहे. आम्ही पारदर्शकता, कार्यक्षम सेवा आणि शासकीय योजना प्रभावीपणे अंमलात आणण्याचे उद्दिष्ट ठेवतो.">
+       Our Gram Panchayat is committed to the welfare and development of our village and its residents.
+    </p>
+  
+    <h3 data-en="Vision" data-hi="दृष्टि" data-mr="दृष्टी">➡Vision::</h3>
+        <p data-en="To build a self-reliant, clean, and progressive village that thrives on community participation and development." 
+       data-hi="एक आत्मनिर्भर, स्वच्छ और प्रगतिशील गांव का निर्माण करना जो सामुदायिक भागीदारी और विकास पर आधारित हो।" 
+       data-mr="एक स्वयंपूर्ण, स्वच्छ आणि प्रगत गाव उभारणे जे समुदायाच्या सहभागावर आधारित असेल.">
+       To build a self-reliant, clean, and progressive village that thrives on community participation and development.
+    </p>
+  
+    <h3 data-en="Mission" data-hi="मिशन" data-mr="मिशन">➡Mission::</h3>
+    <p data-en="To ensure the implementation of rural development schemes, maintain basic amenities, and promote education, health, and employment opportunities for all." 
+       data-hi="ग्रामीण विकास योजनाओं को लागू करना, बुनियादी सुविधाओं का रखरखाव करना और सभी के लिए शिक्षा, स्वास्थ्य और रोजगार के अवसरों को बढ़ावा देना।" 
+       data-mr="ग्रामीण विकास योजना राबवणे, मूलभूत सुविधा राखणे आणि सर्वांसाठी शिक्षण, आरोग्य आणि रोजगाराच्या संधी निर्माण करणे.">
+       To ensure the implementation of rural development schemes, maintain basic amenities, and promote education, health, and employment opportunities for all.
+    </p>
+  
+    <h3 data-en="Key Development Highlights" data-hi="प्रमुख विकास विशेषताएँ" data-mr="मुख्य विकास वैशिष्ट्ये">➡Key Development Highlights::</h3>
+    <ul>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnWh2rhbbTtg3vgqLJQpMwX-48d7g6b4q2dQ&s" alt="" width="80%" style="margin: 10px 0;">
+        <li data-en="Clean drinking water supply" 
+          data-hi="स्वच्छ पेयजल आपूर्ति" 
+          data-mr="स्वच्छ पिण्याच्या पाण्याची व्यवस्था">Clean drinking water supply</li>
+        <li data-en="Clean drinking water supply is ensured for every household.
+        Pipelines and water tanks are regularly maintained.
+        Safe drinking water is our utmost priority.
+        We have implemented water harvesting techniques to conserve water.
+        Special focus on hygiene and health benefits of pure water.
+        Continuous monitoring to maintain quality standards." 
+                data-hi="हर घर में स्वच्छ पेयजल की आपूर्ति सुनिश्चित की गई है।
+        पाइपलाइनों और पानी की टंकियों का नियमित रखरखाव किया जाता है।
+        स्वच्छ पेयजल हमारी सर्वोच्च प्राथमिकता है।
+        जल संरक्षण के लिए जल संचयन तकनीकों को अपनाया गया है।
+        स्वच्छ पानी के स्वास्थ्य लाभों पर विशेष ध्यान।
+        गुणवत्ता मानकों को बनाए रखने के लिए निरंतर निगरानी।"
+                data-mr="प्रत्येक घरासाठी स्वच्छ पिण्याच्या पाण्याची व्यवस्था केली आहे.
+        पाईपलाइन आणि पाण्याच्या टाक्यांची नियमित देखभाल केली जाते.
+        स्वच्छ पाणी ही आमची सर्वोच्च प्राथमिकता आहे.
+        पाणी साठवण तंत्राचा अवलंब करून जलसंधारण केले आहे.
+        स्वच्छ पाण्याचे आरोग्यदायी फायदे यावर विशेष भर.
+        गुणवत्तेचे निकष टिकवण्यासाठी सातत्याने निरीक्षण.">
+                Clean drinking water supply
+        Clean drinking water supply is ensured for every household.
+            Pipelines and water tanks are regularly maintained.
+            Safe drinking water is our utmost priority.
+            We have implemented water harvesting techniques to conserve water.
+            Special focus on hygiene and health benefits of pure water.
+            Continuous monitoring to maintain quality standards.
+        </li>
+        
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtXXJnFYa9oZWkPlGFGE2g44Kwn7oAb00yuw&s" alt="" width="80%" style="margin: 10px 0;">
+         <li data-en="Proper sanitation and waste management" 
+          data-hi="सही स्वच्छता और कचरा प्रबंधन" 
+          data-mr="योग्य स्वच्छता आणि कचरा व्यवस्थापन">Proper sanitation and waste management::</li>
+          <li data-en="Proper sanitation and waste management facilities are developed.
+            Daily waste collection and disposal mechanisms are followed.
+            Focus on making the village open defecation free.
+            Awareness drives are conducted on hygiene and cleanliness.
+            Waste segregation is promoted at the source level.
+            Regular cleaning drives ensure a healthy environment."
+                    data-hi="सही स्वच्छता और कचरा प्रबंधन सुविधाएं विकसित की गई हैं।
+            दैनिक कचरा संग्रह और निपटान की व्यवस्था है।
+            गांव को खुले में शौच मुक्त बनाने पर ध्यान।
+            स्वच्छता और साफ-सफाई पर जागरूकता अभियान चलाए जाते हैं।
+            स्रोत स्तर पर कचरे का पृथक्करण बढ़ावा दिया जाता है।
+            नियमित सफाई अभियान से स्वस्थ वातावरण सुनिश्चित किया जाता है।"
+                    data-mr="योग्य स्वच्छता आणि कचरा व्यवस्थापन सुविधा विकसित केली आहे.
+            दररोज कचरा संकलन आणि विल्हेवाट यंत्रणा आहे.
+            गाव हागणदारीमुक्त करण्यावर भर दिला आहे.
+            स्वच्छता आणि स्वच्छतेसाठी जनजागृती मोहीम राबवली जाते.
+            स्रोत पातळीवर कचरा वेगळा करण्यावर भर दिला आहे.
+            नियमित स्वच्छता मोहीम आरोग्यपूर्ण वातावरण सुनिश्चित करते.">
+            Proper sanitation and waste management facilities are developed.
+            Daily waste collection and disposal mechanisms are followed.
+            Focus on making the village open defecation free.
+            Awareness drives are conducted on hygiene and cleanliness.
+            Waste segregation is promoted at the source level.
+    </li>
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk1069QqveRtYEji7oj4htfMvnwh1e4l5WWg&s" alt="" width="80%" style="margin: 10px 0;">
+         <li data-en="Government scheme awareness drives" 
+          data-hi="सरकारी योजनाओं के लिए जागरूकता अभियान" 
+          data-mr="सरकारी योजनांची जागरूकता मोहिम">Government scheme awareness drives::</li>
+          <li data-en="Government scheme awareness drives are organized regularly.
+            People are informed about schemes like PM Awas Yojana, Ujjwala Yojana, etc.
+            Village notice boards and meetings are used for updates.
+            Volunteers assist villagers in availing benefits.
+            Special focus on women's and farmers' welfare schemes.
+            We ensure maximum benefit reach to every household."
+                    data-hi="सरकारी योजनाओं के लिए जागरूकता अभियान नियमित रूप से आयोजित किए जाते हैं।
+            लोगों को पीएम आवास योजना, उज्ज्वला योजना जैसी योजनाओं की जानकारी दी जाती है।
+            गांव के सूचना बोर्ड और बैठकों में जानकारी दी जाती है।
+            स्वयंसेवक ग्रामीणों को लाभ दिलाने में सहायता करते हैं।
+            महिला और किसान कल्याण योजनाओं पर विशेष ध्यान।
+            हर घर तक अधिकतम लाभ पहुंचाना सुनिश्चित किया जाता है।"
+                    data-mr="सरकारी योजनांची जागरूकता मोहीम नियमित राबवली जाते.
+            पीएम आवास योजना, उज्ज्वला योजना यांसारख्या योजनांची माहिती दिली जाते.
+            गावच्या सूचना फळ्या आणि बैठकीत माहिती दिली जाते.
+            स्वयंसेवक गावकऱ्यांना लाभ मिळवून देण्यासाठी मदत करतात.
+            महिला आणि शेतकरी कल्याण योजनांवर विशेष भर.
+            प्रत्येक घरापर्यंत जास्तीत जास्त लाभ पोहोचवण्याचे सुनिश्चित केले जाते.">
+            Government scheme awareness drives are organized regularly.
+            People are informed about schemes like PM Awas Yojana, Ujjwala Yojana, etc.
+            Village notice boards and meetings are used for updates.
+            Volunteers assist villagers in availing benefits.
+            Special focus on women's and farmers' welfare schemes.
+            We ensure maximum benefit reach to every household.
+    </li>
+
+
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAOwCO_-n3_8ZQiJlQHqitXBvczxH6P1eBFA&s" alt="" width="80%" style="margin: 10px 0;">
+      <li data-en="Health camps and women empowerment programs" 
+          data-hi="स्वास्थ्य शिविर और महिला सशक्तिकरण कार्यक्रम" 
+          data-mr="आरोग्य शिबिर आणि महिला सशक्तीकरण कार्यक्रम">Health camps and women empowerment programs::</li>
+          <li data-en="Health camps are organized regularly for villagers.
+          Free check-ups and medicines are provided.
+          Focus on women empowerment through various programs.
+          Skill development sessions are arranged for women.
+          Special awareness about maternal and child health.
+          Ensuring better health and a brighter future for all."
+                  data-hi="ग्रामीणों के लिए नियमित रूप से स्वास्थ्य शिविर आयोजित किए जाते हैं।
+          नि:शुल्क जांच और दवाइयां प्रदान की जाती हैं।
+          विभिन्न कार्यक्रमों के माध्यम से महिला सशक्तिकरण पर ध्यान।
+          महिलाओं के लिए कौशल विकास सत्र आयोजित किए जाते हैं।
+          मातृ और शिशु स्वास्थ्य के बारे में विशेष जागरूकता।
+          सभी के लिए बेहतर स्वास्थ्य और उज्ज्वल भविष्य सुनिश्चित करना।"
+                  data-mr="गावकऱ्यांसाठी नियमित आरोग्य शिबिरांचे आयोजन केले जाते.
+          मोफत तपासणी आणि औषध दिले जाते.
+          विविध कार्यक्रमांद्वारे महिला सशक्तीकरणावर भर.
+          महिलांसाठी कौशल्य विकास सत्र आयोजित केली जातात.
+          मातृ आणि बाल आरोग्याबद्दल विशेष जनजागृती.
+          सर्वांसाठी चांगले आरोग्य आणि उज्वल भविष्य सुनिश्चित करणे.">
+          Health camps are organized regularly for villagers.
+          Free check-ups and medicines are provided.
+          Focus on women empowerment through various programs.
+          Skill development sessions are arranged for women.
+          Special awareness about maternal and child health.
+          Ensuring better health and a brighter future for all.              
+        </li>
+          
+
+
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA-XT_wM44eFFTFbYNwxrqxTFgHfW67ObdzQ&s" alt="Development Highlights" width="80%" style="margin: 10px 0;">
+      <li data-en="Educational support for children" 
+          data-hi="बच्चों के लिए शैक्षणिक सहायता" 
+          data-mr="मुलांसाठी शैक्षणिक मदत">Educational support for children::</li>
+          <li data-en="Educational support is provided to children from poor backgrounds.
+            Scholarships and study materials are distributed.
+            Focus on increasing literacy and reducing dropouts.
+            Special coaching for competitive exams is arranged.
+            Facilities like libraries and e-learning centers developed.
+            Empowering the young minds to build a brighter future."
+                    data-hi="गरीब पृष्ठभूमि के बच्चों को शैक्षणिक सहायता प्रदान की जाती है।
+            छात्रवृत्तियां और अध्ययन सामग्री वितरित की जाती है।
+            साक्षरता बढ़ाने और ड्रॉपआउट कम करने पर ध्यान।
+            प्रतियोगी परीक्षाओं के लिए विशेष कोचिंग की व्यवस्था।
+            पुस्तकालय और ई-लर्निंग केंद्र जैसी सुविधाएं विकसित की गई हैं।
+            युवा दिमागों को उज्ज्वल भविष्य के लिए सशक्त बनाना।"
+                    data-mr="गरिब पार्श्वभूमीतील मुलांना शैक्षणिक मदत केली जाते.
+            शिष्यवृत्ती आणि अभ्यास साहित्य वितरित केले जाते.
+            साक्षरता वाढवणे आणि गळती कमी करणे यावर भर.
+            स्पर्धा परीक्षांसाठी विशेष कोचिंगची व्यवस्था.
+            ग्रंथालय आणि ई-लर्निंग केंद्र विकसित केली आहेत.
+            तरुणांना उज्ज्वल भविष्यासाठी सशक्त बनवणे.">
+            Educational support is provided to children from poor backgrounds.
+            Scholarships and study materials are distributed.
+            Focus on increasing literacy and reducing dropouts.
+            Special coaching for competitive exams is arranged.
+            Facilities like libraries and e-learning centers developed.
+            Empowering the young minds to build a brighter future."</li>
+    </ul>
+  </section>
+  
+
+  <section id="about">
+    <h2 data-en="----------About Us----------" data-hi="----------हमारे बारे में----------" data-mr="----------आमच्याबद्दल----------">----------About Us----------</h2>
+    <p data-en="Our Gram Panchayat is the backbone of local governance, dedicated to serving the needs of the village people." 
+       data-hi="हमारा ग्राम पंचायत स्थानीय शासन की रीढ़ है, जो गांव के लोगों की जरूरतों को पूरा करने के लिए समर्पित है।" 
+       data-mr="आमचे ग्रामपंचायत हे स्थानिक प्रशासनाचे आधारस्तंभ आहे, जे गावकऱ्यांच्या गरजांसाठी समर्पित आहे.">
+       Our Gram Panchayat is the backbone of local governance, dedicated to serving the needs of the village people.
+    </p>
+  
+    <p data-en="Established in 1985, our Panchayat has continuously worked towards the welfare and development of the village, focusing on infrastructure, education, healthcare, and social initiatives."
+       data-hi="1985 में स्थापित, हमारा पंचायत लगातार गांव के कल्याण और विकास के लिए काम कर रहा है, जिसमें बुनियादी ढांचा, शिक्षा, स्वास्थ्य देखभाल और सामाजिक पहलों पर ध्यान केंद्रित किया गया है।"
+       data-mr="1985 मध्ये स्थापन झालेली आमची पंचायत सातत्याने गावाच्या कल्याणासाठी आणि विकासासाठी काम करत आहे, ज्यामध्ये पायाभूत सुविधा, शिक्षण, आरोग्यसेवा आणि सामाजिक उपक्रम यावर भर दिला जात आहे.">
+       Established in 1985, our Panchayat has continuously worked towards the welfare and development of the village, focusing on infrastructure, education, healthcare, and social initiatives.
+    </p>
+  
+    <p data-en="The Panchayat consists of elected members who represent the voice of the people and work towards solving local issues with transparency and efficiency."
+       data-hi="पंचायत में चुने हुए सदस्य होते हैं जो लोगों की आवाज़ का प्रतिनिधित्व करते हैं और पारदर्शिता और कुशलता से स्थानीय मुद्दों को हल करने का काम करते हैं।"
+       data-mr="पंचायतमध्ये निवडून आलेले सदस्य असतात जे लोकांचे प्रतिनिधित्व करतात आणि पारदर्शकपणे व कार्यक्षमतेने स्थानिक समस्या सोडवण्याचे काम करतात.">
+       The Panchayat consists of elected members who represent the voice of the people and work towards solving local issues with transparency and efficiency.
+    </p>
+  
+    <p data-en="Our goal is to build a progressive, inclusive, and sustainable village where every citizen can live with dignity and access basic amenities." 
+       data-hi="हमारा लक्ष्य एक प्रगतिशील, समावेशी और सतत गांव बनाना है जहां हर नागरिक गरिमा के साथ रह सके और बुनियादी सुविधाएं प्राप्त कर सके।" 
+       data-mr="आमचे ध्येय म्हणजे एक प्रगत, सर्वसमावेशक आणि शाश्वत गाव निर्माण करणे जिथे प्रत्येक नागरिक सन्मानाने राहू शकेल आणि मूलभूत सुविधा मिळवू शकेल.">
+       Our goal is to build a progressive, inclusive, and sustainable village where every citizen can live with dignity and access basic amenities.
+    </p>
+  
+    <p data-en="We believe in active participation of the community and strive to empower our citizens through various development programs, awareness campaigns, and government schemes." 
+       data-hi="हम समुदाय की सक्रिय भागीदारी में विश्वास करते हैं और विभिन्न विकास कार्यक्रमों, जागरूकता अभियानों और सरकारी योजनाओं के माध्यम से अपने नागरिकों को सशक्त बनाने का प्रयास करते हैं।"
+       data-mr="आम्ही समुदायाच्या सक्रिय सहभागावर विश्वास ठेवतो आणि विविध विकास कार्यक्रम, जनजागृती मोहिमा आणि सरकारी योजनांद्वारे आमच्या नागरिकांना सक्षम करण्याचा प्रयत्न करतो.">
+       We believe in active participation of the community and strive to empower our citizens through various development programs, awareness campaigns, and government schemes.
+    </p>
+  </section>
+  
+
+  <section id="services">
+    <h2 data-en="----------Services----------" data-hi="----------सेवाएं----------" data-mr="----------सेवा----------">----------Our Services----------</h2>
+    <p data-en="Issuance of birth certificates for newborns with accurate records."
+   data-hi="नवजात शिशुओं के लिए सटीक रिकॉर्ड के साथ जन्म प्रमाण पत्र जारी करना।"
+   data-mr="नवजात बालकांसाठी अचूक नोंदींसह जन्म प्रमाणपत्र जारी करणे.">
+   Issuance of birth certificates for newborns with accurate records.
+    </p>
+
+    <p data-en="Issuance of official death certificates for legal purposes."
+    data-hi="कानूनी उद्देश्यों के लिए आधिकारिक मृत्यु प्रमाण पत्र जारी करना।"
+    data-mr="कायदेशीर कारणांसाठी अधिकृत मृत्यू प्रमाणपत्र जारी करणे.">
+    Issuance of official death certificates for legal purposes.
+    </p>
+
+    <p data-en="Manage property tax payments to support village development projects."
+    data-hi="गांव के विकास परियोजनाओं के लिए संपत्ति कर भुगतान प्रबंधन।"
+    data-mr="गाव विकास प्रकल्पांसाठी मालमत्ता कर संकलनाचे व्यवस्थापन करणे.">
+    Manage property tax payments to support village development projects.
+    </p>
+
+    <p data-en="Ensure regular and clean water supply to every household in the village."
+    data-hi="गांव के हर घर में नियमित और स्वच्छ जल आपूर्ति सुनिश्चित करना।"
+    data-mr="गावातील प्रत्येक घरामध्ये नियमित व स्वच्छ पाणीपुरवठा सुनिश्चित करणे.">
+    Ensure regular and clean water supply to every household in the village.
+    </p>
+
+    <p data-en="Maintain cleanliness, sanitation, and proper waste disposal in the community."
+    data-hi="समुदाय में स्वच्छता बनाए रखना और उचित कचरा प्रबंधन करना।"
+    data-mr="समुदायामध्ये स्वच्छता राखणे व योग्य कचरा व्यवस्थापन करणे.">
+    Maintain cleanliness, sanitation, and proper waste disposal in the community.
+    </p>
+
+    <p data-en="Help villagers apply for various state and central government schemes."
+    data-hi="ग्रामीणों को विभिन्न राज्य और केंद्र सरकार की योजनाओं के लिए आवेदन करने में सहायता करना।"
+    data-mr="ग्रामीण भागातील नागरिकांना विविध राज्य आणि केंद्र सरकारी योजनांसाठी अर्ज करण्यास मदत करणे.">
+    Help villagers apply for various state and central government schemes.
+    </p>
+
+    <p data-en="Organize health camps, promote education, and support school development."
+    data-hi="स्वास्थ्य शिविर आयोजित करना, शिक्षा को बढ़ावा देना और स्कूल विकास में सहायता करना।"
+    data-mr="आरोग्य शिबिरांचे आयोजन करणे, शिक्षणाला प्रोत्साहन देणे आणि शाळा विकासात मदत करणे.">
+    Organize health camps, promote education, and support school development.
+    </p>
+</section>
+  
+
+<section id="schemes">
+    <h2 data-en="----------Schemes & Programs----------" data-hi="----------योजनाएँ और कार्यक्रम----------" data-mr="----------योजना आणि कार्यक्रम----------">----------Schemes & Programs----------</h2>
+  
+    <p data-en="We assist villagers in availing the benefits of various state and central government schemes aimed at improving their living standards."
+       data-hi="हम ग्रामीणों को उनकी जीवन स्तर सुधारने के लिए विभिन्न राज्य और केंद्र सरकार की योजनाओं का लाभ उठाने में सहायता करते हैं।"
+       data-mr="आम्ही ग्रामीणांना त्यांच्या जीवनमान सुधारण्यासाठी विविध राज्य आणि केंद्र सरकारच्या योजनांचा लाभ घेण्यास मदत करतो.">
+       We assist villagers in availing the benefits of various state and central government schemes aimed at improving their living standards.
+    </p>
+  
+    <p data-en="Pradhan Mantri Awas Yojana (PMAY) - Housing for all eligible villagers."
+       data-hi="प्रधान मंत्री आवास योजना (PMAY) - सभी पात्र ग्रामीणों के लिए आवास।"
+       data-mr="प्रधानमंत्री आवास योजना (PMAY) - सर्व पात्र ग्रामीणांसाठी घर.">
+       Pradhan Mantri Awas Yojana (PMAY) - Housing for all eligible villagers.
+    </p>
+  
+    <p data-en="Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) - Provides 100 days of guaranteed wage employment."
+       data-hi="महात्मा गांधी राष्ट्रीय ग्रामीण रोजगार गारंटी अधिनियम (MGNREGA) - 100 दिनों की गारंटीशुदा मजदूरी।"
+       data-mr="महात्मा गांधी राष्ट्रीय ग्रामीण रोजगार हमी योजना (MGNREGA) - 100 दिवसांची हमी असलेली मजुरी.">
+       Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) - Provides 100 days of guaranteed wage employment.
+    </p>
+  
+    <p data-en="Pradhan Mantri Jan Dhan Yojana (PMJDY) - Financial inclusion by opening bank accounts."
+       data-hi="प्रधान मंत्री जन धन योजना (PMJDY) - बैंक खाता खोलकर वित्तीय समावेशन।"
+       data-mr="प्रधानमंत्री जनधन योजना (PMJDY) - बँक खाते उघडून आर्थिक समावेश.">
+       Pradhan Mantri Jan Dhan Yojana (PMJDY) - Financial inclusion by opening bank accounts.
+    </p>
+  
+    <p data-en="Swachh Bharat Abhiyan - Promoting sanitation and cleanliness in the village."
+       data-hi="स्वच्छ भारत अभियान - गांव में स्वच्छता और सफाई को बढ़ावा देना।"
+       data-mr="स्वच्छ भारत अभियान - गावात स्वच्छता आणि स्वच्छतेला प्रोत्साहन देणे.">
+       Swachh Bharat Abhiyan - Promoting sanitation and cleanliness in the village.
+    </p>
+  
+    <p data-en="Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) - Financial assistance to farmers."
+       data-hi="प्रधान मंत्री किसान सम्मान निधि (PM-KISAN) - किसानों को वित्तीय सहायता।"
+       data-mr="प्रधानमंत्री किसान सन्मान निधी (PM-KISAN) - शेतकऱ्यांना आर्थिक मदत.">
+       Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) - Financial assistance to farmers.
+    </p>
+  
+    <p data-en="Pension Schemes - Assistance for senior citizens, widows, and disabled persons."
+       data-hi="पेंशन योजनाएँ - वरिष्ठ नागरिकों, विधवाओं और विकलांग व्यक्तियों के लिए सहायता।"
+       data-mr="पेन्शन योजना - जेष्ठ नागरिक, विधवा आणि अपंग व्यक्तींना सहाय्य.">
+       Pension Schemes - Assistance for senior citizens, widows, and disabled persons.
+    </p>
+  
+    <p data-en="Girl Child Schemes - Support schemes for girl child education and welfare."
+       data-hi="बालिका योजनाएँ - बालिकाओं की शिक्षा और कल्याण के लिए योजनाएं।"
+       data-mr="मुलींसाठी योजना - मुलींच्या शिक्षण आणि कल्याणासाठी योजना.">
+       Girl Child Schemes - Support schemes for girl child education and welfare.
+    </p>
+  </section>
+  
+<!-- gallery section-->
+  <section id="gallery">
+    <h2 data-en="----------Gallery----------" data-hi="----------गैलरी----------" data-mr="----------गॅलरी----------">----------Gallery----------</h2>
+  
+    <div class="event">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSZyC1Ne9OPIpagUIEhCmrALDjmPXPg-SoMg&s" alt="Cleanliness Drive">
+      <p 
+        data-en="Cleanliness Drive organized to promote hygiene and sanitation in the village."
+        data-hi="गांव में स्वच्छता और साफ-सफाई को बढ़ावा देने के लिए स्वच्छता अभियान आयोजित किया गया।"
+        data-mr="गावात स्वच्छता आणि स्वच्छतेला प्रोत्साहन देण्यासाठी स्वच्छता मोहीम आयोजित केली गेली.">
+        Cleanliness Drive organized to promote hygiene and sanitation in the village.
+      </p>
+    </div>
+  
+    <div class="event">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF-8xxQbwxVk-qLT4dCcnouKlnIPlXeaXjOQ&s" alt="Tree Plantation">
+      <p 
+        data-en="Tree Plantation event to encourage greenery and environmental protection."
+        data-hi="हरियाली और पर्यावरण संरक्षण को बढ़ावा देने के लिए वृक्षारोपण कार्यक्रम।"
+        data-mr="हरित आणि पर्यावरण संरक्षणासाठी वृक्षारोपण कार्यक्रम आयोजित केला गेला.">
+        Tree Plantation event to encourage greenery and environmental protection.
+      </p>
+    </div>
+  
+    <div class="event">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTODjlStvxTPbc8ig2chexb76dZ4VsybeQkfQ&s" alt="Health Camp">
+      <p 
+        data-en="Health Camp organized to provide free health check-ups and consultations."
+        data-hi="निःशुल्क स्वास्थ्य जांच और परामर्श के लिए स्वास्थ्य शिविर का आयोजन किया गया।"
+        data-mr="मोफत आरोग्य तपासणी आणि सल्ल्यासाठी आरोग्य शिबिर आयोजित करण्यात आले.">
+        Health Camp organized to provide free health check-ups and consultations.
+      </p>
+    </div>
+  </section>
+  
+
+  <section id="events">
+    <h2 data-en="Events & Announcements" data-hi="घटनाएँ और घोषणाएँ" data-mr="कार्यक्रम आणि घोषणा">Events & Announcements</h2>
+    <p data-en="Stay updated with village news." data-hi="गांव की खबरों से अपडेट रहें।" data-mr="गावाच्या बातम्यांशी अपडेट रहा.">Stay updated with village news.</p>
+  
+    <div class="event">
+      <h3>🌳 Tree Plantation Drive</h3>
+      <p data-en="Organized to promote greenery in the village." 
+         data-hi="गांव में हरियाली बढ़ाने के लिए आयोजन।" 
+         data-mr="गावात हिरवळ वाढवण्यासाठी आयोजन.">Organized to promote greenery in the village.</p>
+    </div>
+  
+    <div class="event">
+      <h3>💧 Clean Water Awareness Campaign</h3>
+      <p data-en="Conducted to educate villagers on clean water usage."
+         data-hi="ग्रामीणों को स्वच्छ पानी के उपयोग के लिए जागरूक करने के लिए आयोजित।"
+         data-mr="ग्रामीणांना स्वच्छ पाण्याच्या वापराबाबत जागरूक करण्यासाठी आयोजित.">Conducted to educate villagers on clean water usage.</p>
+    </div>
+  
+    <div class="event">
+      <h3>🩺 Free Health Check-up Camp</h3>
+      <p data-en="Medical check-up camp organized at the community center."
+         data-hi="सामुदायिक केंद्र में चिकित्सा जांच शिविर आयोजित।"
+         data-mr="सामुदायिक केंद्रात वैद्यकीय तपासणी शिबिर आयोजित.">Medical check-up camp organized at the community center.</p>
+    </div>
+  
+    <div class="event">
+      <h3>📚 Education Awareness Rally</h3>
+      <p data-en="A rally to promote education for all children."
+         data-hi="सभी बच्चों के लिए शिक्षा को बढ़ावा देने के लिए रैली।"
+         data-mr="सर्व मुलांसाठी शिक्षणाला चालना देण्यासाठी रॅली.">A rally to promote education for all children.</p>
+    </div>
+  
+    <!-- Moving Announcement Line -->
+    <div class="announcement">
+      <marquee behavior="scroll" direction="left" scrollamount="6">
+        📢 Vaccination Drive on 5th April | 📢 Submit your Property Tax before 10th April | 📢 Water Supply Maintenance on 8th April | 📢 Village Meeting on 7th April at Panchayat Office
+      </marquee>
+    </div>
+  </section>
+  
+
+  <section id="contact">
+    <h2 data-en="Contact Us" data-hi="संपर्क करें" data-mr="संपर्क करा">Contact Us</h2>
+    <p data-en="Reach out for any queries." data-hi="किसी भी प्रश्न के लिए संपर्क करें।" data-mr="कोणत्याही प्रश्नासाठी संपर्क करा.">Reach out for any queries.</p>
+  
+    <p>Email: grampanchayat@email.com</p>
+    <p>Phone: 9876543210</p>
+    <p>Address: Gram Panchayat Office, Village XYZ</p>
+  
+    <button onclick="openEmergency()">Emergency</button>
+  
+    <div id="emergencyPopup" style="display:none; background: #f8d7da; padding: 15px; border-radius: 10px; margin-top: 10px;">
+      <h3>Emergency Contacts</h3>
+      <p>Gram Panchayat: 9876543210</p>
+      <p>Police Station: 100</p>
+      <p>Ambulance: 108</p>
+      <p>Email: emergency@grampanchayat.com</p>
+  
+      <button onclick="openGPS()">Share My Location 📍</button>
+      <button onclick="closeEmergency()">Close</button>
+    </div>
+  </section>
+  
+  
+
+  <footer id="footer">
+    <div class="footer-container">
+      <div class="footer-about">
+        <h3>Gram Panchayat</h3>
+        <p>Village Name, Taluka, District - 123456<br>
+           Maharashtra, India</p>
+        <p>Phone: +91 98765 43210</p>
+        <p>Email: grampanchayat@example.com</p>
+      </div>
+  
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#schemes">Schemes</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-social">
+        <h3>Follow Us</h3>
+        <a href="#">Facebook</a> |
+        <a href="#">Instagram</a> |
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      &copy; 2025 Gram Panchayat. All Rights Reserved.
+    </div>
+  </footer>
+  
+
+  <script>
+    // Toggle Dark/Light Theme
+    function toggleTheme() {
+      document.body.classList.toggle('dark-mode');
+    }
+
+    // Language Change Function
+    function changeLanguage() {
+      const selectedLang = document.getElementById('language').value;
+      const elements = document.querySelectorAll('[data-en]');
+      elements.forEach(el => {
+        el.innerHTML = el.getAttribute(`data-${selectedLang}`);
+      });
+    }
+  </script>
+</body>
+
+</html>
